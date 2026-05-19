@@ -36,61 +36,27 @@ I. Ý nghĩa các lệnh
 
     - Quá khớp ( overfitting ) - Học vẹt nên học tất.
 
-13. Muốn đọc tất cả sheet trong một file excel thì dùng xfile = pd.excelfile ("file.xlxs")
-
-    - Prase dùng để mở file ngay lập tức mà không cần tốn thời gian.
-   
-14. Hàm plot dùng để vẽ biểu đồ.
-
-    - Plot.bar thay cho plot.barh(horizontal) dùng khi có nhiều danh mục với tên dài.
-
-15. Boxplot ( hộp và râu ) dùng để phát hiện giá trị ngoại lai.
-
-16. read_csv() cho phép đặt lại cột names.
-
-17. đọc n dòng đầu tiên dùng nrows=n.
-
-18. One hot encoding là mỗi giá trị cho 1 cột ( chuyển chữ thành số ).
-
-19. Lệnh grouphy dùng để gom những giá trị giống nhau. - df.grouphy()
-
-20. Hàm means dùng để tính giá trị trung bình.
-
-21. sort.values dùng để xếp giá trị tăng dần.
-
-    - nếu muốn xếp nhỏ dần thêm hàm ascending ( tăng dần ) = false => khi đó auto xếp ngược lại là giảm dần.
-
-22. Toán tử is để check xem có cùng vị trí không
-
-23.  Toán tử == check xem có cùng giá trị hay không
 
 
-II. ý nghĩa và công việc các bước/ thuật toán.
+II. ý nghĩa và công việc các bước.
 
 1. Làm sạch dữ liệu:
    - Xử lý dữ liệu bị thiếu hoặc trùng lặp.
-
-2. KNN (K-Nearest Neighbors) là tìm hàng xóm gần nhất mà giống với cái cần tìm => rất chậm
-
-3. Phân tích dữ liệu giúp cung cấp thông tin sơ bộ (insight) định hình cho hướng đi đúng của dự án.
-
-4. Triển khai mô hình gồm đưa mô hình vào môi trường thực tế và phục vụ nghiệp vụ.
-
-5. Phân biệt các bài toán:
-
-   - Phân loại: khi cần dự đoán một nhãn dán, danh mục.
+2. Mục tiêu của bước khai phá dữ liệu là: xác định xu hướng, mối tương quan và giá trị ngoại lệ
+3. Các bước xử lý dữ liệu trong kinh tế và kinh doanh bao gồm: kiểm tra và làm sạch dữ liệu bị thiếu, sai sót
+4. Kỹ thuật dữ liệu tập trung vào lĩnh vực nào: Thiết kế và quản trị hạ tầng dữ liệu
+5. Vai trò chính của kỹ sư dữ liệu: Thiết lập kho dữ liệu và quy trình xử lý tự động
+6. Kỹ thuật xử lý dữ liệu hỗ trợ bước khai phá dữ liệu bằng cách nào: diễn giải kết quả phân tích
+7. Bước nào trong chu trình khoa học dữ liệu là trọng tâm của khai phá dữ liệu: khái phá dữ liệu
+8. Học máy hỗ trợ bước xử lý dữ liệu như thế nào: điền giá trị thiếu và thay thế giá trị ngoại lai
+9. XML được dùng để: truyền tải dữ liệu theo cấu trúc phân cấp
+10. Phần lớn thời gian trong khoa học dữ liệu dùng để: thu thập, chuẩn hoá và làm sạch dữ liệu
+11. Kỹ thuật dữ liệu khác với khoa học dữ liệu ở điểm: tập trung vào phân tích và xây dựng mô hình
+12. 
   
-   - Hồi quy: khi cần tính toán giá trị cụ thể, liên tục
-  
-   - Phân cụm: khi dữ liệu ban đầu không có nhãn và phải phân dl thành các cụm
-  
-   - Học củng cố: cho tự học, đạt thì thưởng (reward), không đạt thì phạt (penalty).
-
-6
 III. NOTE.
 
 1. Trong python việc đánh số luôn bắt đầu từ 0.
 
-2. Khi đọc dữ liệu mà không có thì ô đó auto hiện NaN
 
-3. 
+   
